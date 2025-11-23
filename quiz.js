@@ -15,6 +15,6 @@ function checkAnswer()
    }
    else
    {
-      feedback.textContent = "That's incorrect. Try again.";
+      feedback.textContent = "That's incorrect. Try again!";
    }
 }

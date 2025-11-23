@@ -9,8 +9,12 @@ function checkAnswer()
 
    const userAnswer = selected.value;
 
-   userAnswer === correctAnswer
-      ? feedback.textContent = "Correct! Well done."
-      : feedback.textContent = "That's incorrect. Try again.";
-
+   if (userAnswer === correctAnswer)
+   {
+      feedback.textContent = "Correct! Well done.";
+   }
+   else
+   {
+      feedback.textContent = "That's incorrect. Try again.";
+   }
 }
